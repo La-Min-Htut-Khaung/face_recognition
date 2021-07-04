@@ -1,0 +1,139 @@
+body {
+    background: url("bg.jpg");
+}
+
+main {
+    background-image: url("../css/bg.jpg");
+    /* Style the left column */
+}
+
+main header {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px 4px 0 0;
+    padding: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main header h1 {
+    color: #fff;
+    position: relative;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+main header p {
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+    margin: 0;
+}
+
+main .grid-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-areas: 'left left right right' 'left1 left1 right1 right1' 'foot foot foot foot';
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding: 0.5rem;
+}
+
+main .left,
+main .right,
+main .left1,
+main .right1 {
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+main .left img,
+main .right img,
+main .left1 img,
+main .right1 img {
+    width: 55px;
+}
+
+main .left p,
+main .right p,
+main .left1 p,
+main .right1 p {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+main .add_people {
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+main .add_people p {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+main .left {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: left;
+}
+
+main .right {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-area: right;
+}
+
+main .left1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: left1;
+}
+
+main .right1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-area: right1;
+}
+
+main .add_people {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: foot;
+}
+
+main .box {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+main .box p {
+    padding: 1px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+
+/*# sourceMappingURL=option.css.map */

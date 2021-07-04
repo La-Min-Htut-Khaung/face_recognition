@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Face Recognition</title>
+    <link rel="stylesheet" href="css/option.css">
+</head>
+<body>
+    <main>
+        <header >
+            <h1>Face Recognition</h1>
+            <hr>
+            <p>random forest algorithm</p>
+        </header>
+        <div class="grid-container">
+            <div class="left" id="photo">
+                <img src="../_images/f_s_3.png" alt="">
+                <p>Photo</p>
+            </div>
+            <div class="right" id="video">
+                <img src="../_images/cctv.png" alt="">
+                <p>Video</p>
+            </div>
+            <div class="left1" id="train">
+                <img src="../_images/f_s_1.png" alt="">
+                <p>Train Model</p>
+            </div>
+            <div class="right1" id="embedded">
+                <img src="../_images/f_s_2.png" alt="">
+                <p>Embeddings</p>
+            </div>
+            <div class="add_people" id="add">
+                <p>Add People</p>
+            </div>
+        </div>
+        <div class="box">
+            <p id='close'> QUIT</p>
+        </div>
+        
+      
+    </main>
+    
+    <script>
+        document.getElementById('close').addEventListener('click', function(){
+            window.location = "mainWindow.html";
+        });
+    </script>
+    <script src="../_link/test.js"></script>
+</body>
+</html>
